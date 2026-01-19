@@ -1,0 +1,109 @@
+/* Material Theme Color Palettes */
+/* Generated from Material Theme Builder */
+
+:root {
+  /* Primary Palette */
+  --primary-0: #000000;
+  --primary-5: #07130E;
+  --primary-10: #121E18;
+  --primary-15: #1C2822;
+  --primary-20: #26332C;
+  --primary-25: #313E37;
+  --primary-30: #3C4A42;
+  --primary-35: #48564E;
+  --primary-40: #546259;
+  --primary-50: #6C7A72;
+  --primary-60: #86948B;
+  --primary-70: #A0AFA5;
+  --primary-80: #BBCAC0;
+  --primary-90: #D7E6DC;
+  --primary-95: #E5F4EA;
+  --primary-98: #EEFDF2;
+  --primary-99: #F4FFF6;
+  --primary-100: #FFFFFF;
+
+  /* Secondary Palette */
+  --secondary-0: #000000;
+  --secondary-5: #0F1210;
+  --secondary-10: #191C1A;
+  --secondary-15: #242624;
+  --secondary-20: #2E312F;
+  --secondary-25: #393C3A;
+  --secondary-30: #454745;
+  --secondary-35: #505351;
+  --secondary-40: #5C5F5C;
+  --secondary-50: #757875;
+  --secondary-60: #8F918E;
+  --secondary-70: #AAACA8;
+  --secondary-80: #C5C7C4;
+  --secondary-90: #E1E3DF;
+  --secondary-95: #F0F1ED;
+  --secondary-98: #F8FAF6;
+  --secondary-99: #FBFDF9;
+  --secondary-100: #FFFFFF;
+
+  /* Tertiary Palette */
+  --tertiary-0: #000000;
+  --tertiary-5: #1E0D00;
+  --tertiary-10: #2A1705;
+  --tertiary-15: #36210D;
+  --tertiary-20: #422C17;
+  --tertiary-25: #4E3621;
+  --tertiary-30: #5B422B;
+  --tertiary-35: #684D35;
+  --tertiary-40: #755940;
+  --tertiary-50: #907157;
+  --tertiary-60: #AB8A6F;
+  --tertiary-70: #C7A588;
+  --tertiary-80: #E4C0A2;
+  --tertiary-90: #FFDCC0;
+  --tertiary-95: #FFEEE2;
+  --tertiary-98: #FFF8F5;
+  --tertiary-99: #FFFBFF;
+  --tertiary-100: #FFFFFF;
+
+  /* Neutral Palette */
+  --neutral-0: #000000;
+  --neutral-5: #111110;
+  --neutral-10: #1B1C1B;
+  --neutral-15: #262625;
+  --neutral-20: #303030;
+  --neutral-25: #3C3B3B;
+  --neutral-30: #474746;
+  --neutral-35: #535251;
+  --neutral-40: #5F5E5D;
+  --neutral-50: #787776;
+  --neutral-60: #92908F;
+  --neutral-70: #ADABAA;
+  --neutral-80: #C8C6C5;
+  --neutral-90: #E5E2E0;
+  --neutral-95: #F3F0EF;
+  --neutral-98: #FCF9F7;
+  --neutral-99: #FFFCFA;
+  --neutral-100: #FFFFFF;
+
+  /* Neutral Variant Palette */
+  --neutral-variant-0: #000000;
+  --neutral-variant-5: #101110;
+  --neutral-variant-10: #1B1C1B;
+  --neutral-variant-15: #252625;
+  --neutral-variant-20: #30312F;
+  --neutral-variant-25: #3B3C3A;
+  --neutral-variant-30: #464746;
+  --neutral-variant-35: #525251;
+  --neutral-variant-40: #5E5E5D;
+  --neutral-variant-50: #777775;
+  --neutral-variant-60: #91918F;
+  --neutral-variant-70: #ACABA9;
+  --neutral-variant-80: #C7C6C4;
+  --neutral-variant-90: #E4E2E0;
+  --neutral-variant-95: #F2F0EE;
+  --neutral-variant-98: #FBF9F7;
+  --neutral-variant-99: #FEFCFA;
+  --neutral-variant-100: #FFFFFF;
+}
+
+/* Usage example:
+  background-color: var(--primary-50);
+  color: var(--tertiary-90);
+*/

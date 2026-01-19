@@ -1,1 +1,406 @@
+<!DOCTYPE html>
+<html lang="fi">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etunimi Sukunimi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="name-header" id="etusivu">
+    <h1>Alexandra Saarelainen</h1>
+    <div class="name-subtitle">Alexandra Saarelainen</div>
+  </header>
+
+  <nav>
+    <button class="menu-toggle" aria-label="Avaa/sulje valikko">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="#etusivu">Etusivu</a></li>
+      <li><a href="#esittely">Esittely</a></li>
+      <li><a href="#osaaminen">Osaaminen</a></li>
+      <li><a href="#projects">Projektit</a></li>
+      <li><a href="#certifications">CV</a></li>
+      <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero-image">
+    <div class="hero-content">
+      <p>Tietotekniikan insinööriopiskelija - rakennan järjestelmiä, jotka kestävät käyttöä ja aikaa.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="about" id="esittely">
+      <div class="about-header">
+        <h2>Esittely</h2>
+        <a href="Alexandra_Saarelainen_ansioluettelo_portfolio.pdf" target="_blank" class="cv-download-link">
+          <i class="fas fa-file-pdf"></i> Lataa CV (PDF)
+        </a>
+      </div>
+      <p>
+        Olen ensimmäisen vuoden insinööriopiskelija, jolla on taustalla työkokemusta useilta eri aloilta.
+        Opintoni painottuvat insinöörin perustaitoihin ja ensi vuonna aloitan syventymisen sulautettuihin järjestelmiin,
+        ja tavoitteenani on yhdistää tekninen osaaminen käytännönläheiseen ongelmanratkaisuun.
+      </p>
+
+      <p>
+        Aiempi työhistoriani on kehittänyt erityisesti kykyä hahmottaa kokonaisuuksia,
+        oppia nopeasti uutta ja toimia vastuullisesti myös muuttuvissa tilanteissa.
+        Olen tottunut työskentelemään itsenäisesti, mutta arvostan selkeää yhteistyötä ja toimivia rakenteita.
+
+      </p>
+
+      <p>
+        Haen kesätyö- tai harjoittelupaikkaa, jossa voin soveltaa ja kehittää teknistä osaamistani
+        käytännön projekteissa sekä tuoda tiimiin motivaatiota, sitkeyttä ja pitkäjänteistä työotetta.
+      </p>
+    </section>
+
+    <section class="skills" id="osaaminen">
+      <div class="skills-content">
+        <h2>Osaaminen</h2>
+        <ul class="skills-list">
+          <li><strong>Ohjelmointi:</strong> C#, Python, C++, TypeScript</li>
+          <li><strong>Web-kehitys:</strong> HTML, CSS, JavaScript, WordPress</li>
+          <li><strong>Tietokannat:</strong> SQL, SQLite</li>
+          <li><strong>Pilvipalvelut:</strong> Microsoft Azure (perusteet)</li>
+          <li><strong>Versionhallinta:</strong> Git, GitHub</li>
+          <li><strong>Projektikäytännöt:</strong> Agile, Scrum</li>
+          <li><strong>Datankäsittely:</strong> Python, Excel</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Koulutus</h2>
+
+      <div class="education-item">
+        <div class="education-header">
+          <h3>Tietotekniikan insinööri (AMK), kesken</h3>
+          <button class="education-expand-btn" aria-label="Avaa/sulje koulutuksen sisältö">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="education-preview">
+          <p>2024-</p>
+        </div>
+        <div class="education-content">
+          <p>Ensimmäisen vuoden opinnot sisältävät C++-ohjelmointia, piiritekniikan ja sulautettujen järjestelmien
+            perusteita sekä matematiikkaa ja fysiikkaa. Suuntautuminen sulautettuihin järjestelmiin alkaa seuraavana
+            vuonna.</p>
+        </div>
+      </div>
+
+      <div class="education-item">
+        <div class="education-header">
+          <h3>Tieto- ja viestintätekniikan perustutkinto, ohjelmistokehittäjä – Sasky</h3>
+          <button class="education-expand-btn" aria-label="Avaa/sulje koulutuksen sisältö">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="education-preview">
+          <p>2024</p>
+        </div>
+        <div class="education-content">
+          <p>Opintojen painopiste oli C#-ohjelmoinnissa ja modernissa ohjelmistokehityksessä. Toteutin useita
+            sovellusprojekteja tietokantapohjaisilla ratkaisuilla ja REST API -rajapintoja hyödyntävillä
+            käyttöliittymillä. Opinnoissa perehdyin myös versionhallintaan (Git), ohjelmistotestauksen perusteisiin ja
+            sovellusarkkitehtuuriin.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses-info-section">
+      <div class="courses-info-wrapper">
+        <img src="assets/images/3d-abstract-background-with-cyber-particles.jpg" alt="" class="courses-info-background">
+
+        <section id="courses">
+          <h2>Kurssit</h2>
+
+          <ul>
+            <li>Data-analytiikka ja tekoäly - JAMK (2025) Ristiinopiskelu</li>
+            <li>Python MOOC - perus- ja jatkokurssit</li>
+            <li>Agile Project Management - Udemy</li>
+          </ul>
+        </section>
+
+        <section class="info-boxes">
+          <div class="info-box">
+            <i class="fas fa-user-cog"></i>
+            <p>Osaan yhdistää teknisen tekemisen käytännön tarpeisiin ja käyttäjän näkökulmaan.</p>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-puzzle-piece"></i>
+            <p>Ratkon ongelmia kokonaisuuksina, en vain koodina.</p>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-graduation-cap"></i>
+            <p>Itseohjautuva oppija, joka vie asiat maaliin asti.</p>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-code"></i>
+            <p>Huolellinen toteutus ja selkeä rakenne ovat minulle tärkeitä.</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projektit</h2>
+
+      <article class="project">
+        <div class="project-header">
+          <h3>StudyTimer</h3>
+          <button class="expand-btn" aria-label="Avaa/sulje projektin sisältö">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <div class="project-preview">
+          <p>
+            Next.js 15 -pohjainen opiskeluajan seurantatyökalu, jossa käyttäjä
+            voi seurata opiskeluaan ajastimen ja kurssikohtaisten näkymien avulla.
+          </p>
+        </div>
+
+        <div class="project-content">
+          <h4>Toteutus</h4>
+          <ul>
+            <li>Next.js 15 (App Router)</li>
+            <li>React 19 + TypeScript</li>
+            <li>Tailwind CSS 4</li>
+            <li>Supabase (Auth + PostgreSQL)</li>
+            <li>Context API (TimerContext)</li>
+            <li>Chart.js (valmius visualisointeihin)</li>
+          </ul>
+
+          <h4>Pääominaisuudet</h4>
+          <ul>
+            <li>Käyttäjäkohtainen autentikointi (Supabase Auth)</li>
+            <li>Opiskeluajastin ja sessioiden tallennus</li>
+            <li>Kurssien hallinta (aikataulu, suunnitellut tunnit)</li>
+            <li>Yhteinen tilanhallinta ajastinlogiikalle</li>
+            <li>Valmius graafisiin visualisointeihin</li>
+          </ul>
+
+          <p class="tech">Status: Kehityksessä</p>
+
+          <p>
+            <a href="https://github.com/kayttaja/studytimer" target="_blank">
+              GitHub-repo
+            </a>
+          </p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-header">
+          <h3>Salasanageneraattori</h3>
+          <button class="expand-btn" aria-label="Avaa/sulje projektin sisältö">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <div class="project-preview">
+          <p>
+            Windows-työpöytäsovellus vahvojen salasanojen luomiseen.
+            Toteutettu Electronilla ja Reactilla modernin käyttöliittymän ja
+            natiivin käyttökokemuksen saavuttamiseksi.
+          </p>
+        </div>
+
+        <div class="project-content">
+          <h4>Teknologiat</h4>
+          <ul>
+            <li>Electron</li>
+            <li>React (v19)</li>
+            <li>TypeScript</li>
+            <li>React Icons, Lucide React</li>
+            <li>Electron Builder</li>
+          </ul>
+
+          <h4>Pääominaisuudet</h4>
+          <ul>
+            <li>Säädettävä salasanan pituus (8–40 merkkiä)</li>
+            <li>Muokattava merkistö</li>
+            <li>Tumma ja vaalea teema</li>
+            <li>Offline-käyttö</li>
+            <li>Kopiointitoiminto</li>
+          </ul>
+
+          <p class="tech">
+            Status: Testivaiheessa
+          </p>
+
+          <p>
+            <a href="https://github.com/kayttaja/salasanageneraattori" target="_blank">
+              GitHub-repo
+            </a>
+          </p>
+
+          <p class="note">
+            Projekti on toteutettu oppimistarkoituksessa ja keskittyy erityisesti
+            käytettävyyteen, tietoturvan perusperiaatteisiin ja moderniin
+            käyttöliittymäsuunnitteluun.
+          </p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-header">
+          <h3>Hotellinvaraussovellus</h3>
+          <button class="expand-btn" aria-label="Avaa/sulje projektin sisältö">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <div class="project-preview">
+          <p>
+            Windows-konsolisovellus hotellin asiakas- ja varaustietojen hallintaan.
+            Sovellus tallentaa tiedot paikalliseen SQLite-tietokantaan ja on rakennettu
+            modulaarisesti laajennettavuutta silmällä pitäen.
+          </p>
+        </div>
+
+        <div class="project-content">
+          <h4>Teknologiat</h4>
+          <ul>
+            <li>C++ (C++20)</li>
+            <li>SQLite (upotettu tietokanta)</li>
+            <li>STL (filesystem, string, vector)</li>
+            <li>Windows API (UTF-8-konsolituki)</li>
+          </ul>
+
+          <h4>Pääominaisuudet</h4>
+          <ul>
+            <li>Asiakkaiden luonti ja hallinta</li>
+            <li>Varausten tekeminen ja hakeminen</li>
+            <li>Huoneiden saatavuuden tarkastelu</li>
+            <li>Tietojen pysyvä tallennus SQLite-tietokantaan</li>
+          </ul>
+          <p>
+            <a href="https://github.com/DeaAlexandra/Winter_hotel" target="_blank">
+              GitHub-repo
+            </a>
+          </p>
+
+          <blockquote class="highlight-quote">
+            "Työ on selvästi kurssin vaatimustason yläpuolella ja toteutettu tavalla,
+            joka muistuttaa oikeaa tuotantokoodia."
+            <span>— Kurssin opettajan palaute</span>
+          </blockquote>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-header">
+          <h3>Selainpohjainen seurantajärjestelmä</h3>
+          <button class="expand-btn" aria-label="Avaa/sulje projektin sisältö">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <div class="project-preview">
+          <p>
+            Työharjoitteluprojekti, jossa kehitin selainpohjaista sovellusta
+            alihankintatilausten seurantaan ja tarkistuslistojen muodostamiseen.
+          </p>
+        </div>
+
+        <div class="project-content">
+          <p>
+            Vastasin erityisesti laskutusdatan käsittelystä ja olennaisten tietojen
+            erottamisesta tarkistuslistoja varten.
+          </p>
+          <p class="tech">Teknologiat: C#, web-teknologiat, tietokanta</p>
+          <p class="note">Lähdekoodi ei ole julkinen (yrityksen sisäinen projekti)</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="certifications">
+      <h2>Sertifikaatit</h2>
+      <ul>
+        <li>
+          <img src="assets/images/microsoft-certified-azure-fundamentals.png" alt="Microsoft Azure Fundamentals badge"
+            class="cert-badge">
+          <div class="cert-info">
+            <span class="cert-name">Microsoft Azure Fundamentals</span>
+            <span class="cert-year">2024</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+
+
+    <section class="contact-profile" id="yhteystiedot">
+      <div class="contact-links">
+        <h2>Yhteystiedot</h2>
+        <ul>
+          <li><a href="mailto:alexandra.saarelainen@outlook.com"><i class="fas fa-envelope"></i> Sähköposti</a></li>
+          <li><a href="https://www.linkedin.com/in/alexandra-saarelainen/" target="_blank"><i
+                class="fab fa-linkedin"></i> LinkedIn</a>
+          </li>
+          <li><a href="https://github.com/DeaAlexandra" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+          <li><a href="Alexandra_Saarelainen_ansioluettelo_portfolio.pdf" target="_blank"><i
+                class="fas fa-file-pdf"></i> Ansioluettelo (PDF)</a></li>
+
+        </ul>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+
+    <p>© 2026 Alexandra Saarelainen - Suunniteltu ja toteutettu itse</p>
+    <p>Sivuston kuvat: <a href="https://www.freepik.com/author/freepik" target="_blank">Freepik</a></p>
+  </footer>
+
+  <script>
+    // Projektien avaaminen/sulkeminen
+    document.querySelectorAll('.expand-btn').forEach(btn => {
+      btn.addEventListener('click', function () {
+        const project = this.closest('.project');
+        project.classList.toggle('expanded');
+      });
+    });
+
+    // Koulutuksen avaaminen/sulkeminen (vain puhelinnäkymässä)
+    document.querySelectorAll('.education-expand-btn').forEach(btn => {
+      btn.addEventListener('click', function () {
+        const educationItem = this.closest('.education-item');
+        educationItem.classList.toggle('expanded');
+      });
+    });
+
+    // Hamburger-menu
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav');
+
+    if (menuToggle) {
+      menuToggle.addEventListener('click', function () {
+        nav.classList.toggle('menu-open');
+        const icon = this.querySelector('i');
+        if (nav.classList.contains('menu-open')) {
+          icon.classList.remove('fa-bars');
+          icon.classList.add('fa-times');
+        } else {
+          icon.classList.remove('fa-times');
+          icon.classList.add('fa-bars');
+        }
+      });
+    }
+
+  </script>
+</body>
+
+</html>
