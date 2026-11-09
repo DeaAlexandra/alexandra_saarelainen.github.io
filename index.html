@@ -121,7 +121,7 @@
 
     <section class="courses-info-section">
       <div class="courses-info-wrapper">
-        <img src="assets/images/3d-abstract-background-with-cyber-particles.jpg" alt="" class="courses-info-background">
+        <img src="assets/images/3d-abstract-background-with-cyber-particles_warm.jpg" alt="" class="courses-info-background">
 
         <section id="courses">
           <h2>Kurssit</h2>
@@ -158,6 +158,58 @@
     <!-- Projects Section -->
     <section id="projects">
       <h2>Projektit</h2>
+
+      <article class="project">
+        <div class="project-header">
+          <h3>Sääaseman piirien testilaite</h3>
+          <button class="expand-btn" aria-label="Avaa/sulje projektin sisältö">
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+
+        <div class="project-preview">
+          <p>
+            Arduino Mega 2560 -pohjainen testilaite, joka simuloi sääaseman
+            signaalilaatikkoa ja tarkistaa automaattisesti, toimivatko
+            opiskelijoiden rakentamat sovelluspiirit vaatimusten mukaan.
+          </p>
+        </div>
+
+        <div class="project-content">
+          <h4>Toteutus</h4>
+          <ul>
+            <li>C/C++, Arduino Mega 2560 (ATmega2560)</li>
+            <li>Mikro-ohjaimen ohjaus suoraan rekistereillä (GPIO, ulkoinen keskeytys, Timer1, ADC)</li>
+            <li>Kolme keskeytyspalvelua (INT4, TIMER1_COMPA, ADC)</li>
+            <li>Tilakonepohjainen, ei-blokkaava ohjelmarakenne</li>
+            <li>UART-ohjattu 4-kanavainen DAC, I2C-LCD-näytöt, multiplekseri</li>
+            <li>Tulossa: Ethernet + MQTT ja tietokanta mittaustuloksille</li>
+          </ul>
+
+          <h4>Pääominaisuudet</h4>
+          <ul>
+            <li>Analogisten piirien testaus valittavilla testijännitteillä</li>
+            <li>Digitaalisten piirien testaus: pulssinleveys ja taajuus (6,9–7,9 kHz)</li>
+            <li>Tilastollinen hyväksyntä ja jännitetasojen tarkistus jokaiselle pulssille</li>
+            <li>Oikosulun, avoimen piirin ja puuttuvan signaalin tunnistus</li>
+            <li>Kaksikielinen käyttöliittymä (suomi/englanti), näppäimistö ja kaksi LCD-näyttöä</li>
+          </ul>
+
+          <h4>Oma roolini</h4>
+          <p>
+            Ohjelmiston pääkehittäjä ja kokonaisuuden hallinta tiimiprojektissa.
+            Vastaan projektin jatkokehityksestä tiimin ensimmäisen version pohjalta.
+          </p>
+
+          <p class="tech">Status: Kehityksessä</p>
+
+          <p>
+            <a href="https://github.com/DeaAlexandra/Test_cube_project" target="_blank">
+              GitHub-repo
+            </a>
+          </p>
+        </div>
+      </article>
 
       <article class="project">
         <div class="project-header">
